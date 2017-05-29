@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /chinmaydas96/index.html
+permalink: /chinmay-das/index.html
 title: CHINMAY DAS
 tags: [Chinmay, Das, chinmaydas]
 image:
