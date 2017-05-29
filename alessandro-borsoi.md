@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /alessandro-borsoi/index.html
-title: ALESSANDRO BORSOI
-tags: [Alessandro, Borsoi, alessandroborsoi]
+permalink: /chinmaydas96/index.html
+title: CHINMAY DAS
+tags: [Chinmay, Das, chinmaydas]
 image:
   feature: alessandroborsoi.jpg
 ---
