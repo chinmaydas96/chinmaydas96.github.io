@@ -1,7 +1,7 @@
 title:            Chinmay Das
 description:      "Ones and Zeros"
 logo:             logo3.png
-disqus_shortname: alessandroborsoi
+disqus_shortname: chinmaydas
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
@@ -48,7 +48,7 @@ links:
   - title: Tags
     url: /tags
   - title: About
-    url: /alessandro-borsoi
+    url: /chinmaydas96
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Rome
