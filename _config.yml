@@ -22,7 +22,7 @@ owner:
   linkedin:       chinmay-das-8b8182121
   twitter:        chinmaydas96
   github:         chinmaydas96
-  # google_plus:    
+  google_plus:    https://plus.google.com/u/0/105234807441439491152
   facebook:       chinmay.das.5220
   instagram:      chinmaydas33
 
@@ -51,7 +51,7 @@ links:
     url: /chinmay-das
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Rome
+timezone:    Asia/Kolkata
 future:      true
 highlighter: rouge
 markdown:    kramdown
