@@ -6,7 +6,7 @@ headline: "Machine_Leaning"
 categories: Machine_Learning
 tags: 
   - machine_learning
-  - Coursera
+
 comments: true
 mathjax: null
 featured: true
@@ -15,13 +15,11 @@ published: true
 
 <img class="image-post" src="{{ site.url }}/images/machine_learning/ml.png" alt="machine learning intro">
 
-I have in been reading quite a few months about what is machine learning and how to apply it in practical application .Well the story begin when I first time read about the Google’s self driving car Waymo . Then suddenly I read about how it works . Then I heard the term `Machine Learning` . Then I attended Pycon India conference for better intuition .I just attended some talks there about machine learning .And unfortunately all were gone by the side of my ear .Then I started googling it . And in most of the blog and in quora I heard about coursera [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew ng . Suddenly I jumped right into it .
+I have in been reading quite a few months about what is machine learning and how to apply it in practical application .Well the story begin when I first time read about the Google’s self driving car Waymo . Then suddenly I read about how it works . Then I heard the term `Machine Learning` . Then I attended Pycon India conference for better intuition .I just attended some talks there about machine learning .And unfortunately all were gone by the side of my ear .Then I started googling it . And in most of the blog and in quora I heard about coursera [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew ng  to begin with. Suddenly I jumped right into it .
 
 
-In this post I will briefly mention the week 1 of the machine learning course by Coursera .
+In this post I will briefly mention  machine learning  defintion and types.
 
-
-### Week-1
 
 
 > What is machine learning ?

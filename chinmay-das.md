@@ -8,6 +8,10 @@ image:
 ---
   <img class="image-circle" src="{{ site.url }}/images/alessandroborsoi.jpg" alt="Alessandro Borsoi">
 
+
+
+
+
 My name is Chinmay Das, a really passionate Machine Learning and Data Science enthusiast.Small time IOT developer.
 and have quintessential knowledge of Android Developement . 
 Currently I am working on Machine learning algorithm from basic .
