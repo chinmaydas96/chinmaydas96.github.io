@@ -3,7 +3,7 @@ layout: post
 title: Chopsticks Length Analysis
 description: Analysis of chopstick using basic statistical methods.
 headline: "Data Analysis Part-1"
-categories: Data Analysis
+categories: Data_Analysis
 tags: 
   - Data Analysis
   - Statistics 
