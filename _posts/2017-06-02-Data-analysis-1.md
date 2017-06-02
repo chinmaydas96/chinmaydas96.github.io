@@ -48,12 +48,150 @@ The study used a randomised complete block design to evaluate the effects of the
 
 
 #### Controlled Variables :
-
 Based on the description of the experiment controlled variable are :
 * The age of the participants was controlled based on the block design.
 * The material of the chopsticks (wood, metal, and so on).
 * The type or size of foods they pinch with chopsticks .
 * Chopstick lengths : 180, 210, 240, 270, 300, and 330 mm
 
+#### Python Code :
+
+```python
+import pandas as pd
+dataFrame = pd.read_csv('chopstick-effectiveness.csv')
+dataFrame.head()
+```
+**output :**
+<div style="padding-left: 200px">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Food.Pinching.Efficiency</th>
+      <th>Individual</th>
+      <th>Chopstick.Length</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>19.55</td>
+      <td>1</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>27.24</td>
+      <td>2</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>28.76</td>
+      <td>3</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>31.19</td>
+      <td>4</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>21.91</td>
+      <td>5</td>
+      <td>180</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+Let's do a basic statistical calculation on the data using code! Run the block of code below to calculate the average "Food Pinching Efficiency" for all 31 participants and all chopstick lengths.
+
+```python
+dataFrame['Food.Pinching.Efficiency'].mean()
+```
+**output :**
+    25.00559139784947
+
+This number is helpful, but the number doesn't let us know which of the chopstick lengths performed best for the thirty-one male junior college students. Let's break down the data by chopstick length. The next block of code will generate the average "Food Pinching Effeciency" for each chopstick length. Run the block of code below.
+
+```python
+meansByChopstickLength = dataFrame.groupby('Chopstick.Length')['Food.Pinching.Efficiency'].mean().reset_index()
+meansByChopstickLength
+
+# reset_index() changes Chopstick.Length from an index to column. Instead of the index being the length of the chopsticks, the index is the row numbers 0, 1, 2, 3, 4, 5.
+```
+**output :**
+<div style="padding-left: 200px">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Chopstick.Length</th>
+      <th>Food.Pinching.Efficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>180</td>
+      <td>24.935161</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>210</td>
+      <td>25.483871</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>240</td>
+      <td>26.322903</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>270</td>
+      <td>24.323871</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>300</td>
+      <td>24.968065</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>330</td>
+      <td>23.999677</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+**From the table we can see that chpsticks of length 240 performed best as it has highest Food Pinching Efficiency**
+
+```python
+# Causes plots to display within the notebook rather than in a new window
+%pylab inline
+
+import matplotlib.pyplot as plt
+
+plt.scatter(x=meansByChopstickLength['Chopstick.Length'], y=meansByChopstickLength['Food.Pinching.Efficiency'])
+plt.xlabel("Length in mm")
+plt.ylabel("Efficiency in PPPC")
+plt.title("Average Food Pinching Efficiency by Chopstick Length")
+plt.show()
+```
+<img class="image-post" src="{{ site.url }}/images/data-analysis/output_13_1.png" alt="png">
+
+
+**Based on the scatterplot created from the code above,It is seen that Food pinching efficiency increase till it reaches the length 240 mm and then it deacreases with increasing length in chopstick.
+Highest efficiency seen at the 240 mm length chopsticks.**
+
 
 # Conclusion
+**In the abstract the researchers stated that their results showed food-pinching performance was significantly affected by the length of the chopsticks, and that chopsticks of about 240 mm long were optimal for adults. But I think we need more data in order to know the optimal length.**
+
+	
+
