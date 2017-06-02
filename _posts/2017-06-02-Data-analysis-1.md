@@ -169,7 +169,7 @@ meansByChopstickLength
 </table>
 </div>
 
-**From the table we can see that chpsticks of length 240 performed best as it has highest Food Pinching Efficiency**
+**From the table we can see that chopsticks of length 240 performed best as it has highest Food Pinching Efficiency**
 
 ```python
 # Causes plots to display within the notebook rather than in a new window
@@ -186,7 +186,7 @@ plt.show()
 <img class="image-post" src="{{ site.url }}/images/data-analysis/output_13_1.png" alt="png">
 
 
-**Based on the scatterplot created from the code above,It is seen that Food pinching efficiency increase till it reaches the length 240 mm and then it deacreases with increasing length in chopstick.
+**Based on the scatter plot created from the code above,It is seen that Food pinching efficiency increase till it reaches the length 240 mm and then it decreases with increasing length in chopstick.
 Highest efficiency seen at the 240 mm length chopsticks.**
 
 
