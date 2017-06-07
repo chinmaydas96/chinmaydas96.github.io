@@ -97,6 +97,11 @@ Consider teaching a dog a new trick .You cannot tell it what to do, but you can 
 Teaching a game bot to perform better and better at a game by learning and adapting to the new situation of the game.
 
 
+{% include trinket-open %}
+print "hello world"
+{% include trinket-close %}
+
+
 > That’s all for today folks .Thanks for your patience .Let me know if there are errors in the post as it’s my first post .
 
 
