@@ -193,5 +193,12 @@ Highest efficiency seen at the 240 mm length chopsticks.**
 # Conclusion
 **In the abstract the researchers stated that their results showed food-pinching performance was significantly affected by the length of the chopsticks, and that chopsticks of about 240 mm long were optimal for adults. But I think we need more data in order to know the optimal length.**
 
+
+# Try the whole code here.
+
+{% include trinket-open %}
+print "hello world"
+{% include trinket-close %}
+
 	
 
