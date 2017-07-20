@@ -196,10 +196,10 @@ Highest efficiency seen at the 240 mm length chopsticks.**
 
 # Try the Python in the browser here.
 
-
+<!---
 {% include trinket-open %}
 print "hello world"
 {% include trinket-close %}
-
+-->
 	
 
