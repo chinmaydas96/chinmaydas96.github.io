@@ -1,13 +1,12 @@
 ---
 layout: post
-title: What is Machine Learning and Types — Part-1
+title: What is Machine Learning and Types —  Part-1
 description: "Definition & Types "
 headline: "Machine Leaning Part-1"
 categories: Machine_Learning
 tags: 
   - machine_learning
-  - MOOC
-
+  
 comments: true
 mathjax: null
 featured: true

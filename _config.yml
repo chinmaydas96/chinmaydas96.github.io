@@ -9,7 +9,7 @@ share:            true
 url:        	  http://chinmaydas.ml
 
 # Gems
-gems: [jekyll-paginate, jekyll-feed,jekyll-gist]
+gems: [jekyll-paginate, jekyll-feed,jekyll-gist,jemoji]
 
 # Owner/author information
 owner:
