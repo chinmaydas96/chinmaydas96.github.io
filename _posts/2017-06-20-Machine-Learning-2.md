@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Understanding Linear Regression —  Part-2
+title: Understanding Linear Regression —  Part-2.1
 description: "How Linear Regression works "
-headline: "Machine Leaning Part-2"
+headline: "Machine Leaning Part-2.1"
 categories: Machine_Learning 
 tags: 
   - machine_learning
