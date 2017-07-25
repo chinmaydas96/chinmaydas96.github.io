@@ -6,8 +6,9 @@ headline: "Machine Leaning Part-1"
 categories: Machine_Learning
 tags: 
   - machine_learning
-
+  
 comments: true
+mathjax: null
 featured: true
 published: true 
 ---

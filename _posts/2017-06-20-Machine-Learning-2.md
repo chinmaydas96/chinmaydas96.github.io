@@ -9,6 +9,7 @@ tags:
   - regression_model
 
 comments: true
+mathjax: null
 featured: true
 published: true 
 ---
