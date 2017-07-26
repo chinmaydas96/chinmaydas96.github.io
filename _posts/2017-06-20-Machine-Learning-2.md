@@ -138,3 +138,6 @@ Then we put it in hypothesis function and get the `result`.
 * Compute final b and final m value by applying Gradient Descent.
 * Compute the prediction.
 * Be happy and share your knowledge. :heart:
+
+Full code on [Github](https://github.com/chinmaydas96/DLFND/blob/master/week-1(Linear-regrssion)/gradient_descent/Gradient%20descent.ipynb) :heart:
+
