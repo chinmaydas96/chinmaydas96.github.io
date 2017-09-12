@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monitoring Global warming Linear Regression — Part-2.2
-description: "Applying Regression works"
+description: "Applying Linear Regression"
 headline: "Machine Leaning Part-2.2"
 categories: Machine_Learning 
 tags: 

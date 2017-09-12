@@ -59,7 +59,7 @@ So to here is figure to visualize the cost function with figure ->
 
 So we need to calculate the distance between the real value vs predict value . In this case we need to calculate mean squared error function for the given figure as some of the will positive and some of will negetive.
 
-<img class="image-post" src="{{ site.url }}/images/machine_learning/error.png" alt="Regression image">
+<img class="image-post" src="{{ site.url }}/images/machine_learning/error.jpg" alt="Regression image">
 
 So Cost Function is -
 
