@@ -18,7 +18,7 @@ published: true
 
 > Let's look at the Mathematics behind the Linear Regression model.
 
-In Supervised Learning **Linear Regression model** is the easiest and simple model, both to understand and apply. In the previous post, I talk about the Supervised Learning. So to perform we are given a labeled dataset to predict. In this post, I will describe how linear regression works and the math behind the linear regression using gradient descent algorithm.
+In Supervised Learning **Linear Regression model** is the easiest and simple model, both to understand and apply. In the previous post, I talk about the Supervised Learning. So to perform we are given a labeled dataset to predict. In this post, I will describe how linear regression works and the math behind the linear regression using the gradient descent algorithm.
 
 To understand the model let’s visualize a dataset.
 
@@ -56,7 +56,7 @@ Here is the figure to visualize the cost function  ->
 
 <img class="image-post" src="{{ site.url }}/images/machine_learning/cost.jpg" alt="Regression image">
 
-So we need to calculate the distance between the real value vs predict value. In this case, we need to calculate mean squared error function for the given figure as some of the will positive and some of will negative.
+So we need to calculate the distance between the real value vs predict value. In this case, we need to calculate the mean squared error function for the given figure as some of the will positive and some of will negative.
 
 <img class="image-post" src="{{ site.url }}/images/machine_learning/error.jpg" alt="Regression image">
 
@@ -73,7 +73,7 @@ Where <br>
 
 In other word costs function / squared error function / mean squared function is nothing but the error in prediction value. So our main task is to minimize the Cost function.
 
-Let’s visualize cost function in 2-D. So there can be the case of two types of cost function. Convex cost function and another is non-convex cost function.
+Let’s visualize cost function in 2-D. So there can be the case of two types of the cost function. Convex cost function and another is non-convex cost function.
 
 <img class="image-post" src="{{ site.url }}/images/machine_learning/costfun.jpg" alt="Regression image">
 
@@ -87,7 +87,7 @@ In order to reach local minima, we need to reach the bottom of the figures. So t
 
 #### Gradient Descent -
 
-For the minimization technique, we use `Gradient Descent` method. 
+For the minimization technique, we use the `Gradient Descent` method. 
 So our goal is to minimize $$J(\theta)$$.
 
 The Gradient is a derivative that points in a direction. *Gradient descent* is a first-order iterative optimization algorithm for finding the minimum of a function. It is not only used in linear regression but also in general algorithm in both machine learning and deep learning.

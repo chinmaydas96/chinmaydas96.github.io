@@ -5,7 +5,7 @@ description: "Applying Linear Regression"
 headline: "Machine Leaning Part-2.2"
 categories: Machine_Learning 
 tags: 
-  - machine_learning
+  - machine_learning 
   - regression_model
 
 comments: true
@@ -18,7 +18,7 @@ published: true
 
 > Climate change is Real. It's happening Here. It's happening Now. 
 
-In this post we explore Global CO2 Emissions and Global Temperature data and try to predict CO2 level and relative temperature change in future. So let's dive in.
+In this post, we explore Global CO2 Emissions and Global Temperature data and try to predict CO2 level and relative temperature change in future. So let's dive in.
 
 [Link to global CO2 dataset](http://data.okfn.org/data/core/co2-fossil-global)<br>
 [Link to temperature datasets](http://data.okfn.org/data/core/global-temp)
