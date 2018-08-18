@@ -5,7 +5,7 @@ description: "Applying Linear Regression"
 headline: "Machine Leaning Part-2.2"
 categories: Machine_Learning 
 tags: 
-  - machine_learning 
+  - machine_learning
   - regression_model
 
 comments: true
